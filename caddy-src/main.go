@@ -16,6 +16,9 @@ import (
 	// plug in Caddy modules here
 	_ "github.com/caddyserver/caddy/v2/modules/standard"
 	_ "github.com/greenpau/caddy-security" // Added the caddy-security plugin
+	_ "github.com/mholt/caddy-webdav"
+	_ "github.com/mholt/caddy-l4"
+	_ "github.com/caddyserver/transform-encoder"
 )
 
 func main() {
